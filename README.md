@@ -1,8 +1,25 @@
- <h1 align="center" style="font-size: 20px;">BASH script to create a clean Next.js project with ESLint, Jest, and Prettier setup</h1>
+ <h1 align="center">BASH script to create a clean Next.js project with ESLint, Jest, and Prettier setup</h1>
 
 > [!TIP]
 >
 > You can check each step of this script [here](https://gist.github.com/gabrielrochas/85613cd8963826b797bc329b9eaa4921)
+
+## [Usage](#usage)
+
+1. Create `create-next-app.sh` file
+
+```bash
+nano create-next-app.sh
+```
+
+2. Add the <a href='#script'>script</a> content to `create-next-app.sh` script
+3. Run the script
+
+```bash
+bash create-next-app.sh
+```
+
+## [Script](#script)
 
 ```sh
 #!/bin/bash
