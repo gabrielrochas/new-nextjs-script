@@ -143,16 +143,16 @@ echo '{
 
 echo "Setup completed successfully!"
 
+echo "Thank you for using this script!"
+echo "Please give us feedback on GitHub!"
+echo "https://github.com/gabrielrochas/new-nextjs-script"
+
 # Open VSCode
-read -p "Do you want to open VSCode? (y/n) " ANSWER
+read -p "Do you want to open your project VSCode? (y/n) " ANSWER
 
 if [ "$ANSWER" = "n" ]; then
-  echo "Thank you for using this script!"
-  echo "Please give us feedback on GitHub!"
-  echo "https://github.com/gabrielrochas/new-nextjs-script"
+  echo "Opening VSCode..."
+  code .
 fi
-
-echo "Opening VSCode..."
-code .
 
 ```
