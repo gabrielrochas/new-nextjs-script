@@ -2,7 +2,7 @@
 
 > [!TIP]
 >
-> You can check each step of this script [here](https://gist.github.com/gabrielrochas/85613cd8963826b797bc329b9eaa4921)
+> You can check each step of this script [here](https://github.com/gabrielrochas/new-nextjs-script/blob/main/manual-steps-guide.md#start-a-clean-nextjs-project-with-eslint-and-prettier)
 
 ## [Usage](#usage)
 
@@ -27,9 +27,9 @@ bash create-next-app.sh
 echo "Start a clean Next.js project with ESLint, Jest, and Prettier setup"
 
 # Prompt project name
-read -p "Enter project name: " PROJECT_NAME
+read -p "Enter the project name: " PROJECT_NAME
 
-# Check if project name is empty
+# Check if the project name is empty
 if [ -z "$PROJECT_NAME" ]; then
   echo "Project name cannot be empty"
   exit 1
@@ -113,7 +113,7 @@ echo "Configuring Jest (optional)..."
 read -p "Do you want to configure Jest? (y/n) " ANSWER
 
 if [ "$ANSWER" = "n" ]; then
-  echo "Opeing VSCode..."
+  echo "Opening VSCode..."
   code .
   exit 1
 fi
