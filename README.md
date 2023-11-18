@@ -1,5 +1,9 @@
  <h1 align="center" style="font-size: 20px;">BASH script to create a clean Next.js project with ESLint, Jest, and Prettier setup</h1>
 
+> [!TIP]
+>
+> You can check each step of this script [here](https://gist.github.com/gabrielrochas/85613cd8963826b797bc329b9eaa4921)
+
 ```sh
 #!/bin/bash
 
