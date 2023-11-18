@@ -3,9 +3,9 @@
 echo "Start a clean Next.js project with ESLint, Jest, and Prettier setup"
 
 # Prompt project name
-read -p "Enter project name: " PROJECT_NAME
+read -p "Enter the project name: " PROJECT_NAME
 
-# Check if project name is empty
+# Check if the project name is empty
 if [ -z "$PROJECT_NAME" ]; then
   echo "Project name cannot be empty"
   exit 1
@@ -89,7 +89,7 @@ echo "Configuring Jest (optional)..."
 read -p "Do you want to configure Jest? (y/n) " ANSWER
 
 if [ "$ANSWER" = "n" ]; then
-  echo "Opeing VSCode..."
+  echo "Opening VSCode..."
   code .
   exit 1
 fi
